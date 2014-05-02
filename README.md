@@ -1,5 +1,4 @@
-Is It Localhost ?
-=================
+# ![alt text](src/images/icon48.png "logo")Is It Localhost ?
 
 Chrome Plugin to help you know if you are working on a localhost website or not
 
