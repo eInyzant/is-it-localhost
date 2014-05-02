@@ -1,0 +1,91 @@
+{
+  "extName": {
+    "message" : "Is It Localhost ?",
+    "description" : "Extension name"
+  },
+  "extDescription": {
+    "message": "This extension allow you to know if you are working on your local server or the distant server",
+    "decription" : "Extension description"
+  },
+  "html_title": {
+    "message" : "Is It Localhost ? : Options",
+    "description" : "Title for the title tag"
+  },
+  "page_title": {
+    "message" : "Is It Localhost ?",
+    "description" : "H1 page title"
+  },
+  "config_title": {
+    "message" : "Configuration",
+    "description" : "Configuration title"
+  },
+  "host_file_label": {
+    "message" : "Where is your hosts file?",
+    "description" : "Host file label"
+  },
+  "host_file_placeholder": {
+    "message" : "Example : /etc/hosts",
+    "description" : "Host file input field Placeholder"
+  },
+  "saveFormBtn": {
+    "message" : "Save",
+    "description" : "Submit value"
+  },
+  "error_fill_host_file": {
+    "message" : "You need to fill the host file input.",
+    "description" : "Extension name"
+  },
+  "config_updated": {
+    "message" : "Configuration Updated",
+    "description" : "Extension name"
+  },
+  "config_not_updated": {
+    "message" : "Configuration not updated : Can't create symlink to hosts file. Please check that the file exists and the path is correct.",
+    "description" : "Extension name"
+  },
+  "help_title": {
+    "message" : "Help",
+    "description" : "Title help section"
+  },
+  "help_resume": {
+    "message" : "In order to that the plugin works properly, please check the following:",
+    "description" : "Introduction to the help section"
+  },
+  "vhost_title": {
+    "message" : "1. Create a vhost",
+    "description" : "Title for the vhost block"
+  },
+  "vhost_ndd": {
+    "message" : "You must create a vhost with the following domain name: is-it-localhost.local",
+    "description" : "domain name explanations"
+  },
+  "vhost_webroot": {
+    "message" : "Please pay attention to the correct Document root of your vhost. You must fill the folder where your plugin is installed",
+    "description" : "web root explanations"
+  },
+  "vhost_example": {
+    "message" : "vhost example:",
+    "description" : "vhost example"
+  },
+  "perms_title": {
+    "message" : "2. Permissions and user group",
+    "description" : "Title for permissions block"
+  },
+  "perms_files": {
+    "message" : "Please check that permissions on your files and folders are correctly set.",
+    "description" : "Permissions on files and folders"
+  },
+  "perms_group": {
+    "message" : "If you are working with an Apache web server, the user group usally set is \"www\"",
+    "description" : "Permissions : Group"
+  },
+  "github_link": {
+    "message" : "Check this project on Github",
+    "description" : "Github Link"
+  },
+  "gardenmedia_link": {
+    "message" : "Realised by the Garden Media community",
+    "description" : "Garden Media link"
+  }
+
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title id="html_title">Is It Localhost : Options</title>
+    <link rel="stylesheet" type="text/css" href="css/options.css">
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/icon128.png" title="Logo - Is It Localhost" alt="logo" />
+      </div>
+      <div class="title">
+        <h1 id="page_title">Is It Localhost ?</h1>
+      </div>
+    </header>
+    <div id="msg"></div>
+    <section class="form">
+      <h2 id="config_title">Configuration</h2>
+      <div class="field">
+        <label id="host_file_label">Where is your Hosts file : </label>
+        <input type="text" id="host_file" name="host_file" placeholder="example : /etc/hosts" />
+      </div>
+      <div class="submit">
+        <input type="submit" id="saveForm" value="Save" />
+      </div>
+    </section>
+    <section class="help">
+      <h2 id="help_title">Aide</h2>
+      <div id="btn_toggle"></div>
+      <div id="help_content">
+        <p id="help_resume">Afin que l'extension fonctionne correctement, veuillez vérifier les points suivants :</p>
+        <dl>
+          <dt id="vhost_title">1. Création d'un vhost</dt>
+          <dd id="vhost_ndd">Vous devez créer un vhost avec le nom de domaine : is-it-localhost.local</dd>
+          <dd id="vhost_webroot">Ce vhost doit pointer vers le dossier où se trouve l'extension</dd>
+          <dd>
+            <span id="vhost_example">Exemple de vhost :</span>
+            <pre>
+              &lt;VirtualHost *:80&gt;
+                  ServerAdmin example@email.com
+                  DocumentRoot "/web/root/is-it-localhost/"
+                  ServerName is-it-localhost.local
+              &lt;/VirtualHost&gt;
+            </pre>
+          </dd>
+
+          <dt id="perms_title">2. Permissions et groupe</dt>
+          <dd id="perms_files">Vous devez vérifier les permissions sur les fichiers et dossiers.</dd>
+          <dd id="perms_group">Si vous êtes sur un serveur Apache, habituellement le groupe est "www"</dd>
+        </dl>
+      </div>
+    </section>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://github.com/eInyzant/is-it-localhost" title="Check this project on github">
+            <img src="images/github.png" title="Github" alt="github" /><span id="github_link">Voir ce projet sur github</span>
+          </a>
+        </li>
+        <li>
+          <a href="http://www.garden-media.fr" title="Communauté Garden Media : Producteur du web">
+            <img src="images/gardenmedia.png" title="Garden Media" alt="logo Garden Media" /><span id="gardenmedia_link">Réalisé par la communauté Garden Media</span></a>
+        </li>
+      </ul>
+    </footer>
+    <script type="text/javascript" src="js/options.js"></script>
+  </body>
+</html>

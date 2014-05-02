@@ -1,0 +1,90 @@
+{
+  "extName": {
+    "message" : "Is It Localhost ?",
+    "description" : "Extension name"
+  },
+  "extDescription": {
+    "message": "Permet de savoir si on travail sur son ordinateur en localhost ou sur le serveur distant",
+    "decription" : "Extension description"
+  },
+  "html_title": {
+    "message" : "Is It Localhost ? : Options",
+    "description" : "Titre pour la balise title"
+  },
+  "page_title": {
+    "message" : "Is It Localhost ?",
+    "description" : "Titre H1 pour la page"
+  },
+  "config_title": {
+    "message" : "Configuration",
+    "description" : "Titre pour la configuration"
+  },
+  "host_file_label": {
+    "message" : "Où se trouve votre fichier hosts ?",
+    "description" : "Label pour le fichier host"
+  },
+  "host_file_placeholder": {
+    "message" : "Exemple : /etc/hosts",
+    "description" : "Placeholder pour le champs fichier host"
+  },
+  "saveFormBtn": {
+    "message" : "Enregistrer",
+    "description" : "Valeur pour le bouton du formulaire"
+  },
+  "error_fill_host_file": {
+    "message" : "Vous devez renseigner l'emplacement du fichier hosts sur votre ordinateur.",
+    "description" : "Error fill host file"
+  },
+  "config_updated": {
+    "message" : "La configuration a été enregistrée.",
+    "description" : "Success config updated"
+  },
+  "config_not_updated": {
+    "message" : "La configuration n'a pas pu être enregistrée : impossible de créer une lien symbolique vers le fichier hosts. Vérifier que le fichier existe bien et que le chemin renseigné est correct.",
+    "description" : "Error : config not updated"
+  },
+  "help_title": {
+    "message" : "Aide",
+    "description" : "Titre pour la section Aide"
+  },
+  "help_resume": {
+    "message" : "Afin que l'extension fonctionne correctement, veuillez vérifier les points suivants :",
+    "description" : "Texte d'introduction pour la section Aide"
+  },
+  "vhost_title": {
+    "message" : "1. Création d'un vhost",
+    "description" : "Titre pour la partie Vhost"
+  },
+  "vhost_ndd": {
+    "message" : "Vous devez créer un vhost avec le nom de domaine : is-it-localhost.local",
+    "description" : "Explications pour le nom de domaine"
+  },
+  "vhost_webroot": {
+    "message" : "Ce vhost doit pointer vers le dossier où se trouve l'extension",
+    "description" : "Explication pour le web root"
+  },
+  "vhost_example": {
+    "message" : "Exemple de vhost :",
+    "description" : "Exemple pour le vhost"
+  },
+  "perms_title": {
+    "message" : "2. Permissions et groupe",
+    "description" : "Titre pour la partie sur les permissions"
+  },
+  "perms_files": {
+    "message" : "Vous devez vérifier les permissions sur les fichiers et dossiers.",
+    "description" : "Permissions sur les fichiers"
+  },
+  "perms_group": {
+    "message" : "Si vous êtes sur un serveur Apache, habituellement le groupe est \"www\"",
+    "description" : "Permissions : Groupe"
+  },
+  "github_link": {
+    "message" : "Voir ce projet sur github",
+    "description" : "Lien github"
+  },
+  "gardenmedia_link": {
+    "message" : "Réalisé par la communatué Garden Media",
+    "description" : "Lien Garden Media"
+  }
+}
