@@ -3,6 +3,8 @@ Is It Localhost ?
 
 Chrome Plugin to help you know if you are working on a localhost website or not
 
+This Extension was realised by the [Garden Media Community](http://www.garden-media.fr "Garden Media Homepage")
+
 ## What is it for ?
 As a developer, I often work on localhost : best rates, and no more need internet connection to work.
 For practical reasons, I use the same domain name as the published website. So I change my hosts file to point to the local server.
