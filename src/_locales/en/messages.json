@@ -76,7 +76,7 @@
     "description" : "Permissions on files and folders"
   },
   "perms_group": {
-    "message" : "If you are working with an Apache web server, the user group usally set is \"www\"",
+    "message" : "If you are working with an Apache web server, the user group usally set is \"www-data\"",
     "description" : "Permissions : Group"
   },
   "github_link": {

@@ -76,7 +76,7 @@
     "description" : "Permissions sur les fichiers"
   },
   "perms_group": {
-    "message" : "Si vous êtes sur un serveur Apache, habituellement le groupe est \"www\"",
+    "message" : "Si vous êtes sur un serveur Apache, habituellement le groupe est \"www-data\"",
     "description" : "Permissions : Groupe"
   },
   "github_link": {

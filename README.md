@@ -48,5 +48,5 @@ For example :
 
 ### Permissions and user group
 Finally, be sure you correctly set files and folders permissions. The server will need to create a symlink to the hosts file. So it need write permissions.
-Usally, on apache web server the user group is set to "www"
+Usally, on apache web server the user group is set to "www-data"
 
