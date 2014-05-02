@@ -11,6 +11,19 @@ The problem is, because you juggle between the local server and the published we
 
 Is It Localhost reads the hosts file on your computer and displays a discreet little red inset on localhost websites.You need to specify in the plugin options the location of this file. Then it will create a symlink.
 
+## Screenshots
+### Working on localhost :
+Do you see the small vertical red notice on the left ?
+![alt text](with-extension.png "Working on localhost")
+
+
+
+
+### Working on published website :
+
+![alt text](without-extension.png "Working on published website")
+
+
 ## Installation
 In order this plugin correctly works you will need to create a vhost on your local server.
 
